@@ -1,6 +1,9 @@
 /**
- * @param {very_long_type} name           Description.
- * @param {type}           very_long_name Description.
+ * Apollo Server Boilerplate, released under MIT license.
+ * Created by Mohamad Kaakati
+ * Email: m@kaakati.me
+ * This software is provided as is.
+ * 2019
  */
 
 const express = require('express');

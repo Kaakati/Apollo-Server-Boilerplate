@@ -1,3 +1,11 @@
+/**
+ * Apollo Server Boilerplate, released under MIT license.
+ * Created by Mohamad Kaakati
+ * Email: m@kaakati.me
+ * This software is provided as is.
+ * 2019
+ */
+
 const { ApolloError, PubSub } = require('apollo-server');
 const Database = require('../Database/db');
 const Methods = require('./imports'); // Mongoose Models Imports
