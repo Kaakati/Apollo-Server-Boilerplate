@@ -4,7 +4,7 @@
   "description": "Apollo Server Boilerplate ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "keywords": [
     "apollo-server",
@@ -13,5 +13,20 @@
     "boilerplate"
   ],
   "author": "Mohamad Kaakati",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server": "^2.3.2",
+    "apollo-server-express": "^2.3.2",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "graphql": "^14.1.1",
+    "graphql-tools": "^4.0.4",
+    "http": "0.0.0",
+    "jsonwebtoken": "^8.4.0",
+    "localized-strings": "^0.2.1",
+    "merge-graphql-schemas": "^1.5.8",
+    "mongoose": "^5.4.6"
+  }
 }
