@@ -1,7 +1,8 @@
 language: node_js
 node_js:
-  - "iojs"
-  - "lts/*"
-
-  before_install:
-  - npm i -g npm@version-number
+  - "8"
+cache:
+  directories:
+    - node_modules
+notifications:
+  email: false
