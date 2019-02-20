@@ -56,7 +56,7 @@ exports.loginUser = async function(params) {
                     resolve(newToken);
                 });
             }
-        });
+        }).populate('role');
     })    
 }
 

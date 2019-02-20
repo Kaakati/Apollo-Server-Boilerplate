@@ -21,8 +21,7 @@ let userSchema = new mongoose.Schema({
     },
     role: {
         type: mongoose.Schema.Types.ObjectId,
-        ref: 'Roles',
-        default: 'USER'
+        ref: 'Role'
     },
     createdAt: {
         type: Date,

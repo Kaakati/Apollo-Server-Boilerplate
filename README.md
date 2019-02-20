@@ -5,9 +5,10 @@
 NodeJS apollo server boilerplate, the initial setup for a server:
 
 #### Setup
-Setup Mongo Database, 
+Setup Mongo Database, Edit:
 ```
-Edit Database/db.js
+Edit Seeds according to your needs.
+Database/db.js
 ```
 
 Pull the repository and run

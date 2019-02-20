@@ -16,7 +16,7 @@ exports.connectToDB = function() {
     })
     .once('open', () => { 
         console.log("Database Connected!");
-        // console.log('Calling Seeds.');
-        // require('../models/seeds/index'); 
+        console.log('Calling Seeds.');
+        require('../seeds/index'); 
     });
 }
