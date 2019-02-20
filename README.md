@@ -5,6 +5,11 @@
 NodeJS apollo server boilerplate, the initial setup for a server:
 
 #### Setup
+Setup Mongo Database, 
+```
+Edit Database/db.js
+```
+
 Pull the repository and run
 ```
 npm install
