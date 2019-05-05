@@ -31,8 +31,8 @@ app.use(cors());
 app.use(bodyParser.json({limit: '2mb'}));
 app.use(bodyParser.urlencoded({limit: '2mb', extended: true}));
 
-const schema = require('./models/allSchemas');
-const resolvers = require('./resolvers/resolvers');
+const schema = require('./Models/allSchemas');
+const resolvers = require('./Resolvers/resolvers');
 
 const apollo = new ApolloServer({
   typeDefs: schema,
