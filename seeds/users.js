@@ -1,5 +1,5 @@
 // Importing 'users' collection.
-const User = require('../Models/User/schema');
+const User = require('../Models/User/model');
 const UserMethods = require('../Models/User/methods')
 
 // Adding 'Super Admin' user.

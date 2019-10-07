@@ -2,7 +2,7 @@ const { ApolloError } = require('apollo-server');
 const bcrypt = require('bcryptjs');
 const salt = bcrypt.genSaltSync(10);
 const jwt = require('jsonwebtoken');
-const User = require('./schema');
+const User = require('./model');
 
 // Create New User
 exports.createNewUser = async function(params) {
