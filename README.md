@@ -1,6 +1,7 @@
 ### Apollo Server Boilerplate
 
 <img src="https://travis-ci.com/Kaakati/Apollo-Server-Boilerplate.svg?branch=master">
+[![Visits Badge](https://badges.pufler.dev/visits/kaakati/Apollo-Server-Boilerplate)](https://badges.pufler.dev)
 
 NodeJS apollo server boilerplate, the initial setup for a server:
 
