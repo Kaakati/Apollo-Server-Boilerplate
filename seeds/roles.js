@@ -1,5 +1,5 @@
 // Importing 'roles' collection.
-const Roles = require('../Models/Role/schema');
+const Roles = require('../Models/Role/model');
 
 // Adding 'SUPER-ADMIN' role.
 Roles.findOne({ name : "SUPER-ADMIN" }, (error, role) => {
