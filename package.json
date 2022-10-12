@@ -15,7 +15,7 @@
   "author": "Mohamad Kaakati",
   "license": "MIT",
   "dependencies": {
-    "apollo-server": "^2.3.2",
+    "apollo-server": "^2.25.4",
     "apollo-server-express": "^2.3.2",
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.18.3",
