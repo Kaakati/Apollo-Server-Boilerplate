@@ -20,7 +20,7 @@
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.18.3",
     "cors": "^2.8.5",
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "graphql": "^14.1.1",
     "graphql-tools": "^4.0.4",
     "http": "0.0.0",
